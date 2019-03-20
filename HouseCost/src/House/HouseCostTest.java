@@ -14,6 +14,6 @@ public class HouseCostTest {
 	 assertEquals(24000,h.cost("standard",20),0.0);
 	 assertEquals(30000,h.cost("abovestandard",20),0.0);
 	 assertEquals(36000,h.cost("highstandard",20),0.0);
-	 assertEquals(50000,h.cost("",20),0.0);
+	 assertEquals(50000,h.cost("highstandardandfullyautomated",20),0.0);
  }
 }

@@ -17,9 +17,12 @@ public class HouseCost {
 		{
 			res=1800*area;
 		}
-		else
+		else if(stnd.contentEquals("highstandardandfullyautomated"))
+		{
+
 			res=2500+area;
-		return res;
+		}
+			return res;
 	}
 	
 	
